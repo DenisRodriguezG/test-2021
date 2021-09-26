@@ -1,0 +1,155 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container
+{
+    width: 360px;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+.header
+{
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-bottom: 2.5px solid red;
+}
+
+.header > i
+{
+    color: white;
+    font-size: 24px;
+}
+
+.header > span
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.header > span > i
+{
+    margin-left: 15px;
+    font-size: 24px;
+}
+
+.sub-container
+{
+    padding: 16px;
+}
+
+.movie-info
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movie-info > .movie-logo
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.movie-info > .movie-logo > img
+{
+    width: 70px;
+}
+
+.movie-info > .movie-logo > .title-temp
+{
+    color: white;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.movie-info > .movie-logo > .title-temp > .title
+{
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.movie-info > .movie-logo > .title-temp > .temp
+{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: rgba(189, 184, 184, 0.9);
+}
+
+.star
+{
+    color: red;
+}
+.star > i
+{
+    font-size: 10px;
+}
+
+.sinopsis
+{
+    color: white;
+    margin-top: 30px;    
+}
+
+.temps > div
+{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.hidden
+{
+    display: none;
+}
+.container-Cap
+{
+    padding: 16px;
+}
+.container-options
+{
+    padding: 16px;
+}
+
+.play
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.play > img
+{
+    width: 100px;
+}
+
+.play > iframe
+{
+    width: 90%;
+}
